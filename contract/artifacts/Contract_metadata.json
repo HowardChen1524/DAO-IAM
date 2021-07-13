@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getHash",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					}
+				],
+				"name": "sendHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/id_create.sol": "Contract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/id_create.sol": {
+			"keccak256": "0xa967e76a18f8570bc06f5359c2049caf02d58e8e96795afd7ead3665688c63fb",
+			"urls": [
+				"bzz-raw://3b97e5971e062a5f6bf38d9cc3e69c105eb0607e71e75d238ccd94dc229effad",
+				"dweb:/ipfs/Qmd1tR9q2MoFHp71kzvE32onQCCHNWus2fsTqjRb7EJhFC"
+			]
+		}
+	},
+	"version": 1
+}
